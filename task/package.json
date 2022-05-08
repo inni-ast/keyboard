@@ -1,0 +1,27 @@
+{
+	"name": "keybord",
+	"version": "1.0.0",
+	"description": "task stage 1",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ./js",
+		"lint:fix": "eslint ./js --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inni-ast/keybord.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/inni-ast/keybord/issues"
+	},
+	"homepage": "https://github.com/inni-ast/keybord#readme",
+	"devDependencies": {
+		"eslint": "^8.14.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.26.0"
+	}
+}

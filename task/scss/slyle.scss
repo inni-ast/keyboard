@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    background-color: #FAF0E6;
+    font-size: 15px;
+    color: #000;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFD700;
+    text-align: center;
+}
+.title {      
+    
+}
+.subtitle {
+
+    
+}
+.description {
+    font-size: 20px;
+
+}
+[placeholder] {
+    padding: 10px;
+    font-size: 20px;
+    border-color: brown;
+}
+.keyboard {
+    padding: 10px;
+    margin: 0 auto;    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+        
+}
+.keyboard__row {
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+.keyboard_key {
+    font-weight: bold;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 7px;
+    transition: all 0.8s;
+    cursor: pointer;
+
+}
+.sim {
+    margin-right: 10px;
+}
+.active_key {
+    background-color: yellow;
+    box-shadow: 2px yellow;
+    transition: all 0.8s;
+    color: #000;
+}
+div[data-code='Space']{
+    flex: 4.5;
+}
+.letter {
+    font-size: 20px;
+}
+div[data-code='CapsLock'].active{
+    color: red;
+}
