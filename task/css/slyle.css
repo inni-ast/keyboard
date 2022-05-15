@@ -88,6 +88,7 @@
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   color: #000;
+  border-radius: 40%;
 }
 
 div[data-code='Space'] {
